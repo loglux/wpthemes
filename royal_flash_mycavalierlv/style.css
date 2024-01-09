@@ -1,0 +1,657 @@
+/*
+Theme Name: Royal Flash
+Theme URI: www.toyterrier.lv
+Description: The theme for Royal Flash website
+Version: 2.0
+Author: Eva Mezecka, css adaptation and coding by Vladislav Sorokin (vlad@vexedpoint.com)
+Author URI: www.eva-studio.lv
+Tags:
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+header, nav, section, article, aside, footer {
+	display: block;
+}
+body {
+	font: 14px/18px Arial, Tahoma, Verdana, sans-serif;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	height: 100%;
+	background-color: #334537;
+}
+a {
+	color: #A38323;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+
+img, a img, #gallery-1 img {
+	border: none;
+}
+
+input {
+	vertical-align: middle;
+}
+
+h1 {
+	color: #a38323;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+h2.title a {
+	color:#fff;
+}
+
+h2 {
+	color: #a38323;
+	font-size:16px;
+	padding: 8px 0;
+}
+
+h3 {
+	color: #a38323;
+	font-size:14px;
+	padding: 8px 0;
+}
+
+pre {
+
+}
+
+blockquote {
+	font-size: 12px;
+    	line-height: 5px;
+    	text-indent: 20px;
+        }
+
+#wrapper {
+	width: 100%;
+	min-width: 988px;
+/*	min-height: 100%; */
+/*	height: auto !important; */
+/*	height: 100%; */
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 331px;
+	background-image: url(images/right_bg.jpg);/*	background: #FFE680; */
+}
+
+#mainheader {
+	clear: both;
+	height: auto;
+	margin: 0 auto;
+	width: 988px;	
+}
+
+#leftdog {
+	float:left;
+	background-image: url(images/Left_dog.jpg);
+	height: 331px;
+	width: 325px;
+}
+
+#middledog {
+	float:left;
+	display:block;
+	height: 331px;
+	width: 337px;
+}
+
+#flashtop {
+	background-image: url(images/top1.jpg);
+	height: 90px;
+	width: 337px;	
+}
+
+#flashmiddle {
+	/*background-image: url(images/logo_mirgo.gif);*/
+        background-image: url(images/spaniel_logo.jpg);
+	height: 126px;
+	width: 337px;
+}
+
+#flashbottom {
+	background-image: url(images/top2.jpg);
+        background-repeat: no-repeat;
+	height: 115px;
+	width: 337px;	
+	
+}
+#rightdog {
+	float:left;
+	background-image: url(images/right_dog.jpg);	
+	height: 331px;
+	width: 326px;	
+}
+
+#menuwrapper {
+	background-image: url(images/button_bg.jpg);
+	height: 61px;	
+}
+
+/* Horizon menu */
+#horizon {
+	clear:both;
+/*	margin: 0 auto; */
+	display: block; 
+	margin-right:auto;
+	margin-left:auto;
+	height:61px;
+	width:988px;
+	overflow:hidden;
+}
+
+#horizon ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#horizon ul li {
+	float:left;
+	margin:0;
+	padding:0;	
+
+
+}
+
+#horizon ul li:hover {
+	background-image: url(images/middle.jpg);
+	background-repeat: repeat-x;
+}
+#horizon ul li a {
+	display:block;
+	height:61px;
+	padding-left:23px;
+	/*	padding-right:4px; */
+	float:left;
+	text-transform:uppercase;
+	color:#8f7a3c;
+	text-decoration:none;
+	overflow:hidden;
+	font-size:16px;
+	background-image: url(images/separator.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#horizon ul li.last a {
+background-image:none;	
+
+}
+
+#horizon ul li a span {
+	display:block;
+	float:left;
+	height:61px;
+	/*padding-top:15px;*/
+	padding-right:23px; 
+	line-height:75px;
+	cursor:pointer;	
+/*	padding-top:22px; */
+	overflow:hidden;
+}
+
+#horizon ul li a:hover {
+	background-image: url(images/leftside.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+	
+#horizon ul li a:hover span {
+	background-image: url(images/rightside.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;	
+}
+
+#horizon ul li.last a:hover span {
+	background-image: url(images/rightside_last.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;	
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+#empty {
+/*
+  display:block;
+height:55px;
+*/
+}
+
+#content {
+	background-attachment: scroll;
+	background-color: #334537;
+	background-image: url(images/content_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	overflow: hidden; 
+/*	padding-top:55px; */
+	min-height:108px;
+
+}
+
+#main {
+clear: both;
+	height: auto;
+	margin: 0 auto;
+/*	padding-top:55px; */
+	width: 988px;	
+	color: #C2C0A7;	
+/* overflow:hidden;   */
+	margin-top:55px;
+}
+
+.entry {
+      overflow:hidden;
+	}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	/*	margin: -224px auto 0; */
+
+	min-width: 988px;
+	margin-top:0px;
+	height: 224px;
+	/*	background: #BFF08E; */
+/*	position: relative; */
+	
+	background-image: url(images/bottom_bg.jpg);
+}
+
+#mainfooter {
+	clear: both;
+	height: 224px;
+	margin: 0 auto;
+	width: 988px;
+	background-image: url(images/bottom.jpg);	
+}
+
+/* language switch */
+
+#langflag {
+	margin-right:auto;
+	margin-left:auto;
+	padding-top: 60px;	
+	width:150px;
+	height:50px;
+}
+
+#langflag li {
+	float:left;	
+	list-style-type: none;
+}
+
+#langflag li a {
+	display:block;
+	color:#8f7a3c;	
+	text-shadow: 0px 0px 5px rgba(150, 150, 150, 0.75);
+	padding-left:10px;
+	text-decoration:none;
+}
+
+
+#langflag li a span {
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #8f7a3c;
+	padding-right:10px;
+}
+
+#langflag li.lang-en a span {
+	border:none;
+}
+
+.newsdate {
+	background-image: url(images/newsdate.png);
+	background-repeat: no-repeat;
+	width:200px;
+	height:50px;
+	line-height: 45px;
+/*text-indent: 40px;*/
+	color:#8F7A3C;
+	margin-bottom:30px;
+}
+
+
+.newsdatetext {
+	text-align:center;
+	padding-top:3px;
+}
+
+/* blocks of news */
+
+
+.infoblock {
+/*	 margin-top: 30px; */
+	clear:both;
+	display:block;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+
+.fotobar {
+ /*	clear:both;    */
+	float:left;
+	display:block;
+/*	margin-left: 41px;   */
+        width:338px;
+	min-height:50px;   
+}
+
+img.attachment-thumbnail, img.post-thumbnail {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border: thin solid #8F7A3C;
+	padding: 10px;
+}
+
+img.attachment-medium {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border: thin solid #8F7A3C;
+	padding: 10px;
+}
+
+/*
+img.wp-post-image {
+
+ padding-left: 19px;
+}
+*/
+
+.textcolumn {
+	
+	float:left;
+	width:650px;
+ /*	margin-left: 39px;     */
+  	
+	
+}
+
+
+.mainhead {
+	color: #FFFFFF;
+	display:block;
+	width:465px;
+	height:61px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	height: 61px;
+	line-height: 43px;
+	padding: 0;
+	text-indent: 25px;
+	background:  url(images/zag_for.png) no-repeat 0 0;
+}
+
+.sidebarhead {
+	color: #FFFFFF;
+	width:270px;
+	height:61px;
+	display: block;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	height: 61px;
+	line-height: 43px;
+	padding: 0;
+	text-indent: 25px;
+	background:  url(images/pl_z_g.png) no-repeat;
+}
+
+/* gallery */
+.thumbox a, a.thumbox {
+	display: block;
+	height: 339px;
+	width: 285px;
+	text-decoration: none;
+	background:  url(images/gallerypreview.png) no-repeat;
+}
+
+.thumbox a img, a.thumbox img {
+	padding-left: 19px;
+ /*   padding-top: 60px;  */
+}
+
+a.thumbox img {
+	padding-top: 60px;
+}
+
+
+img.thumbox {
+	display: block;
+	height: 339px;
+	width: 285px;
+	text-decoration: none;
+	background:  url(images/gallerypreview.png) no-repeat;
+
+}
+
+.ch_thumbox a {
+	display: block;
+	height: 339px;
+	width: 285px;
+	text-decoration: none;
+	background:  url(images/ch_gallerypreview.png) no-repeat;
+}
+
+.gallery_preview {
+	padding-left: 19px;
+  /*  padding-top: 60px;   */
+
+}
+
+.thumbox {
+       /* 	margin:0px !important; */
+}
+
+.titlebox {
+	color: #8F7A3C;
+	text-decoration: none;
+	list-style: none outside none;
+	font-size: 18px;
+	line-height: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align:center;
+        overflow:hidden;
+}
+
+.bottombox {
+	background:  url(images/titlebox_info.jpg) no-repeat;
+	height: 37px;
+	width: 285px;
+}
+
+li.gallerybox {
+	list-style:none;
+	float:left;   
+	padding: 15px;
+}
+
+ul.subgallery {
+
+}
+
+/* images and text */
+
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.alignright {float:right; }
+
+.alignleft, alingleft img {
+float:left; 
+/* margin-bottom:100%; */
+margin-right: 10px; /* custom */
+/* padding-bottom:100% */
+    margin-bottom: 10px;
+}
+
+.aligncenter {
+display: block; 
+margin-left: auto; 
+margin-right: auto
+}
+
+.wp-caption.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.wp-caption.alignright {float:right; margin:0 0 1em 1em}
+.wp-caption.alignleft {
+	float:left; 
+	margin:0 20px 1em 0;
+	 
+	}
+
+
+p.wp-caption-text  {
+	color: #8F7A3C;
+}
+
+.spoiler-title {
+ 	display:block;
+ 	background:  url(images/others.jpg) no-repeat;
+	width:276px;
+	height:36px;
+/* visibility : hidden; */
+	margin: 0 auto 20px;
+	margin-top:20px;
+   /* 	width: 285px; */
+	line-height:36px;
+	color: #8F7A3C;
+    	font-size: 18px;
+        text-transform:uppercase;
+	text-align: center;
+}
+
+.spoiler-title span, .spoiler-title strong {
+/* visibility : hidden;      */
+}      
+
+.spoiler {
+	margin-bottom:10px;
+}
+
+table {
+	margin: 0 auto;
+}
+
+
+
+td {
+	border: 1px double #8F7A3C;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+tr.hearts td {
+	border:0;
+}
+
+
+.ss-q-title {
+    display: block;
+    width: 62%;
+    margin-bottom: 4px;
+}
+
+label.ss-q-help {
+    display: block;
+    width: 100%;
+    height: 10px;
+}
+
+#content textarea {
+    /*padding-left: 3px;*/
+    /*width: 98%;*/
+    /*height:100px;*/
+}
+
+
+
+label.error {
+ color: red;
+ margin-left:20px;
+}
+
+input.error, textarea.error {
+	border: 1px dotted #f00;
+}
+
+
+.ss-required-asterisk {
+ /*margin-right: 20px;*/
+}
+
+label.ss-q-title {
+ /*display:block;*/
+}
+
+textarea.ss-q-long {
+ display: block;
+    width: 62%;
+}
+
+ul.ss-choices {
+
+margin-bottom:40px;
+
+}
+
+li.ss-choice-item   {
+ /*float:left;*/
+list-style-type:none;
+}
+
+.errorbox-good {
+clear:both;
+ display:block;
+margin-bottom:10px;
+}
+
+label {
+ /*margin-bottom:10px;*/
+}
+
+input.ss-q-short {
+    width:62%;
+}
+
+span.ss-required-asterisk {
+    /*float:left;*/
+    /*margin-right: 20px;*/
+    /*text-indent: 20px;*/
+    padding-left:5px;
+    color:red;
+}
+
+li.page_item {
+    margin-bottom: 10px;
+}
+
+input.jfk-button {
+	padding: 4px;
+	margin-bottom: 6px;
+}
+
+#cboxOverlay {
+background: #333;
+}

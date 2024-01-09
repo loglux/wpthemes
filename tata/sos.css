@@ -1,0 +1,608 @@
+/*
+Theme Name: SOS.LV
+Theme URI: http://www.sos.lv
+Description: This theme was converted from tables to css by Vladislav Sorokin - vlad@vexedpoint.com
+Version: 2.0
+Author: 
+Author URI: 
+Tags: 
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+header, nav, section, article, aside, footer {
+	display: block;
+}
+body {
+	font: 12px/18px Verdana, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	color:#a78606;
+	margin: 0 0 18px;
+	font-size:16px;
+}
+
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px;
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	width: 100%;
+	min-width: 950px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 30px;
+	background-image: url(images/ttt_op.jpg);
+	background-repeat: repeat-x;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+	background-image: url(images/bg1.jpg);
+	background-repeat: repeat-x;
+	
+	min-height:907px;
+	height: 100%;
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	clear:both;
+	height: 137px;
+	background-image: url(images/bg1_bot.jpg);
+}
+
+#middlebox {
+	clear:both;
+	margin: 0 auto; 
+	width:853px;
+	height:auto;
+
+}
+
+
+#menuwrapper {
+overflow:hidden;	
+height:82px;	
+}
+
+#vmenu {
+	float:right;
+	height:82px;
+	list-style-type:none;
+	text-decoration:none;
+	overflow:hidden;
+	 margin-right: 45px;
+}
+
+ul.vmenu {
+	list-style-type:none;
+	text-decoration:none;
+	float: left;	
+
+/*	margin-left:225px; */
+}
+
+#vmenu li  {
+	float:left;
+	margin-top: 0;
+
+
+	text-align: center;
+	text-decoration: underline;
+	top: 25px;
+	vertical-align: top;
+	
+	word-spacing: normal;
+
+
+}
+
+#vmenu ul li a {
+	color: #333333;
+	display: inline-block;
+	font-family: Geneva,Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	height: 78px;
+	letter-spacing: normal;
+	line-height: 80px;
+	margin-left: 3px;
+	margin-right: 3px;
+
+	padding-right: 15px;
+	padding-left: 15px	
+	
+}
+
+#vmenu ul li a.selected {
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: Geneva,Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	height: 78px;
+	letter-spacing: normal;
+	line-height: 80px;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 0;
+	padding: 0 15px;
+	text-align: center;
+	text-decoration: none;
+	top: 25px;
+	vertical-align: top;
+	width: auto;
+	word-spacing: normal;
+	background: url(images/arrow.png) no-repeat center top;	
+}
+
+#vmenu ul li a:hover {
+background-image: url(images/arrow_up.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 78px;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 80px;
+	color: #333333;	
+	
+	
+
+	  line-height: 80px;
+	width: auto;
+	
+
+	margin-right: 3px;
+margin-left: 3px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.bookend {
+float:right;
+display:block;
+width:39px;
+min-height:82px;	
+}
+
+#feature {
+	height:367px;
+	background-image: url(images/featured-home.png);
+	background-repeat: no-repeat;
+}
+#feature.pakalpojumi {
+	height:367px;
+	background-image: url(images/featured-blank.png);
+	background-repeat: no-repeat;
+}
+#feature.taksometri {
+	height:367px;
+	background-image: url(images/featured-taxi.png);
+	background-repeat: no-repeat;
+}
+#feature.kontakti {
+	height:367px;
+	background-image: url(images/featured-map.png);
+	background-repeat: no-repeat;
+}
+#feature.blank {
+	height:367px;
+	background-image: url(images/featured-blank.png);
+	background-repeat: no-repeat;
+}
+
+
+
+#tagline {
+  position: relative;
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  font-weight: 100;
+  color: #816704;
+  top: 174px;
+}
+#tagline.lv {
+  left: 90px;
+}
+#tagline.ru {
+  left: 80px;
+}
+
+#price_95E {
+  position: relative;
+  font-family: "Verdana";
+  font-size: 24px;
+  font-weight: 100;
+  color: #333;
+  top: 197px;
+  left: 130px;
+}
+#price_DD {
+  position: relative;
+  font-family: "Verdana";
+  font-size: 24px;
+  font-weight: 100;
+  color: #333;
+  top: 214px;
+  left: 130px;
+}
+
+a.action {
+  text-decoration: none;
+}
+a.action div {
+  position: relative;
+  font-family: "Verdana";
+  font-size: 24px;
+  font-weight: 100;
+  color: white;
+  top: 240px;
+}
+a.action div.lv {
+  left: 110px;
+}
+a.action div.ru {
+  left: 109px;
+}
+
+
+
+div.fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened {
+  border-radius: 24px;
+  border: 3px solid #ffca08; 
+  background-color: white;
+}
+div.fancybox-skin {
+  border-radius: 21px;
+  background: url(images/fancy-bg.png) no-repeat;
+}
+
+
+
+/*
+.videotube {
+    float: left;
+    margin-left: 373px;
+    margin-top: 19px;
+}
+*/
+/*
+#feature.services {
+	background-image: url(images/services.jpg);
+	background-repeat: no-repeat;
+}
+
+#feature.servicesru {
+	background-image: url(images/services_ru.jpg);
+	background-repeat: no-repeat;
+}
+
+
+#feature.rufeature {
+	background-image: url(images/narez_03_ru.jpg);
+	background-repeat: no-repeat;
+}
+
+#feature.cleaning {
+	background-image: url(images/narez_04.jpg);
+	background-repeat: no-repeat;	
+}
+
+#feature.cleaningru {
+	background-image: url(images/cleaning_ru.jpg);
+	background-repeat: no-repeat;	
+}
+
+
+
+#feature.taxi {
+	background-image: url(images/App_taxi.jpg);
+	background-repeat: no-repeat;	
+}
+
+#feature.taxiru {
+	background-image: url(images/App_taxi_ru.jpg);
+	background-repeat: no-repeat;	
+}
+
+
+
+#feature.contacts {
+	background-image: url(images/narez_kontakti.jpg);
+	background-repeat: no-repeat;	
+	
+}
+
+#feature.contactsru {
+	background-image: url(images/contacts_ru.jpg);
+	background-repeat: no-repeat;	
+	
+}
+*/
+
+
+#lang {
+clear:both;
+margin: 0 auto;
+
+height:30px;
+width:853px;	
+}
+
+#langswitch {
+float:right;
+overflow:hidden;	
+margin-right:44px;
+}
+
+li.lang {
+ 	float:left;
+	background-image: url("images/lang_n.png");
+    	background-position: center top;
+    	background-repeat: no-repeat;
+   	list-style-type:none;   
+        }
+
+li.lang a {
+        color: #CCCCCC;	
+ 	display: inline-block;
+    	font-family: Verdana,Arial,Helvetica,sans-serif;
+    	font-size: 11px;
+    	height: 27px;
+    	line-height: 28px;
+    	margin-left: 3px;
+    	margin-right: 3px;
+    	padding-top: 2px;
+    	text-align: center;
+ 	text-decoration: none;
+    	vertical-align: bottom;
+    	width: 84px;	
+	}
+
+li.lang a:hover {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CCCCCC;
+	display: inline-block;
+	background-image: url(images/lang_o.png);
+	height: 27px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 84px;
+	text-align: center;
+	vertical-align: bottom;
+	line-height: 28px;
+	padding-top: 2px;
+	text-decoration: none;
+	margin-right: 3px;
+	margin-left: 3px;	
+}
+
+li.active {
+ 
+   
+}
+
+li.active a {
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	height: 27px;
+	line-height: 28px;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding-top: 2px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: bottom;
+	width: 84px;
+	background:  url(images/lang_g.png) no-repeat center top;
+}
+
+.infoblock {
+	 margin-top: 30px;
+}
+
+.sidebar {
+ 	clear:both;    
+	float:left;
+	margin-left: 41px;
+        width:270px;
+        min-height:61px;
+}
+
+.sidebar2 {
+   	float: right;
+    	margin-right: 43px;
+        width:270px;
+        min-height:61px;
+}
+
+img.center {
+	display: block;
+	margin-right: auto;
+	margin-left:auto;
+	margin-bottom:30px;
+}
+
+* + html #middlebox { 
+   margin-bottom:30px;
+}
+
+
+.maincolumn {
+	
+	float:left;
+	width:465px;
+ 	margin-left: 39px;
+  	
+	
+}
+
+
+.mainhead {
+	color: #FFFFFF;
+	display:block;
+	width:465px;
+	height:61px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	height: 61px;
+	line-height: 43px;
+	padding: 0;
+	text-indent: 25px;
+	background:  url(images/zag_for.png) no-repeat 0 0;
+}
+
+.sidebarhead {
+	color: #FFFFFF;
+	width:270px;
+	height:61px;
+	display: block;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	height: 61px;
+	line-height: 43px;
+	padding: 0;
+	text-indent: 25px;
+	background:  url(images/pl_z_g.png) no-repeat;
+}
+
+#footerinfo {
+	clear:both;
+	margin: 0 auto;
+	width:853px;
+	height:137px;
+}
+	
+.copyright {
+		float:left;
+		margin-top:60px;	
+    	color: #999999;
+    	font-family: Verdana,Arial,Helvetica,sans-serif;
+    	font-size: 10px;	
+}
+
+.hidden {
+	display:none;	
+}
+
+.mailtitle {
+    clear: both;
+    float: left;
+	width:200px;
+	text-align:center;
+}
+
+.mailtext {
+/* width: 256px; */
+
+text-align:center;
+}
+	
+.button {
+    background-color: #FFFFFF; 
+    background-image: url("images/gr_bb.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: thin none #FFFFFF;
+    color: #FFFFFF;
+    height: 50px;
+    line-height: 10px;
+    margin: 0;
+    padding: 0;
+    width: 177px;	
+		
+}
+
+.button {
+margin-top:55px;	
+}
+.input {
+	background-image: url(images/f2.png);
+	background-repeat: no-repeat;	
+	
+	height:20px;
+	width: 170px;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #006600;
+	border-right-color: #006600;
+	border-bottom-color: #006600;
+	border-left-color: #006600;
+	padding-left: 10px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.message {
+	height: 185px;
+	width: 245px;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #006600;
+	border-right-color: #006600;
+	border-bottom-color: #006600;
+	border-left-color: #006600;
+	padding-left: 0px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #ffffff;
+	font-size: 12px;
+	color: #333333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-image: url(images/f3.png);	
+	text-indent: 5px;
+	padding-top: 5px;
+}

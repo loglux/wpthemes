@@ -1,0 +1,506 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Royal Flash v2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-04 10:44:54+0000\n"
+"Last-Translator: admin <vlad@vexedpoint.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Latvian\n"
+"X-Poedit-Country: LATVIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: backup/page.php:12
+#: page-form-new.php:21
+#: page-form.php:21
+#: page-sublinks.php:29
+#: page.php:17
+#: puppy-form.php:22
+#@ royal_flash
+msgid "Read the rest of this page &raquo;"
+msgstr ""
+
+#: backup/page.php:14
+#: page-form.php:325
+#: page-sublinks.php:31
+#: page.php:19
+#: puppy-form.php:431
+#: single.php:26
+#@ royal_flash
+msgid "Pages:"
+msgstr ""
+
+#: backup/page.php:19
+#: page-form.php:330
+#: page-sublinks.php:36
+#: page.php:24
+#: puppy-form.php:438
+#@ royal_flash
+msgid "Edit this entry."
+msgstr ""
+
+#: functions.php:8
+#@ default
+msgid "Custom Menu"
+msgstr ""
+
+#: functions.php:128
+#@ default
+msgid "Links"
+msgstr ""
+
+#: functions.php:131
+#@ default
+msgid "Comments"
+msgstr ""
+
+#: functions.php:131
+#@ default
+msgid "Users"
+msgstr ""
+
+#: index.php:31
+#, php-format
+#@ royal_flash
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: index.php:34
+#@ royal_flash
+msgid "F jS, Y"
+msgstr ""
+
+#: index.php:37
+#: single.php:24
+#@ royal_flash
+msgid "Read the rest of this entry &raquo;"
+msgstr ""
+
+#: index.php:40
+#@ royal_flash
+msgid "Edit"
+msgstr ""
+
+#: index.php:50
+#@ royal_flash
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: index.php:51
+#@ royal_flash
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: index.php:56
+#@ royal_flash
+msgid "Not Found"
+msgstr ""
+
+#: index.php:57
+#@ royal_flash
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr ""
+
+#: page-form-new.php:42
+#: page-form.php:42
+#: puppy-form.php:56
+#@ royal_flash
+msgid "Full Name"
+msgstr "Pilns vārds"
+
+#: page-form-new.php:50
+#: page-form.php:66
+#: puppy-form.php:73
+#@ royal_flash
+msgid "Street Address (where the puppy will live)"
+msgstr "Adrese (kur kucēns dzīvos)"
+
+#: page-form-new.php:56
+#: page-form.php:73
+#: puppy-form.php:85
+#@ royal_flash
+msgid "City"
+msgstr "Pilsēta"
+
+#: page-form-new.php:70
+#: page-form.php:87
+#: puppy-form.php:107
+#@ royal_flash
+msgid "Zip Code"
+msgstr "Pasta indekss"
+
+#: page-form-new.php:77
+#: page-form.php:94
+#: puppy-form.php:118
+#@ royal_flash
+msgid "Phone Number"
+msgstr "Mobilā tel. nummurs"
+
+#: page-form-new.php:84
+#: page-form.php:101
+#: puppy-form.php:129
+#@ royal_flash
+msgid "Email"
+msgstr "Emails"
+
+#: page-form-new.php:91
+#: page-form.php:108
+#: puppy-form.php:138
+#@ royal_flash
+msgid "Please list the primary caregiver for this Cavalier"
+msgstr "Kurš galvenokārt rūpēsies par  sunīti"
+
+#: page-form-new.php:98
+#: page-form.php:115
+#: puppy-form.php:147
+#@ royal_flash
+msgid "Do you have a fenced yard?"
+msgstr "Vai tev ir pagalms?"
+
+#: page-form-new.php:105
+#: page-form.php:122
+#: puppy-form.php:156
+#@ royal_flash
+msgid "How will your puppy be exercised?"
+msgstr "Vai kucēns tiks vests uz apmācībām?"
+
+#: page-form-new.php:112
+#: page-form.php:129
+#: puppy-form.php:166
+#@ royal_flash
+msgid "Is anyone at home during the day? If no, please tell us how long the puppy will normally be left alone."
+msgstr "Vai kāds ir  mājās dienas laikā? Ja nav, pastāstiet, lūdzu,kā parsti kucēns tiks atstāts viens pats un cik ilgi viņš paliks  bez uzraudzības."
+
+#: page-form-new.php:119
+#: page-form.php:136
+#: puppy-form.php:176
+#@ royal_flash
+msgid "Where will the puppy primarily live?"
+msgstr "Kur kucēns pārsvarā dzīvos?"
+
+#: page-form-new.php:130
+#: page-form.php:147
+#: puppy-form.php:202
+#@ royal_flash
+msgid "Do any children live at this address? If so, please list their ages."
+msgstr "Vai ar tevi dzīvo bērni, ja jā, cik veci?"
+
+#: page-form-new.php:137
+#: page-form.php:154
+#: puppy-form.php:210
+#@ royal_flash
+msgid "Do you own other pets? If yes, please tell us about them."
+msgstr "Vai tev ir citi mājdzīvnieki? Ja ir, pastāsti lūdzu par tiem."
+
+#: page-form-new.php:144
+#: page-form.php:161
+#@ royal_flash
+msgid "Tell us about your prior pet ownership"
+msgstr "Pastāsti par savu iepriekšējo pieredzi ar mājdzīvnieku."
+
+#: page-form-new.php:151
+#: page-form.php:168
+#: puppy-form.php:220
+#@ royal_flash
+msgid "Have you ever returned a dog or other pet? Due to temperment problems or a personal change in your life? Please explain."
+msgstr "Vai esi kādreiz atgriezis audzētājam suni vai citu mājdzīvnieku? Temperimenta problēmu dēļ vai dzīves apstākļu maiņas dēļ? Lūdzu paskaidro!"
+
+#: page-form-new.php:158
+#: page-form.php:175
+#: puppy-form.php:228
+#@ royal_flash
+msgid "Are you prepared to make a lifetime (10-15 years) commitment to a Cavalier King Charles Spaniel? * (If for any reason you can no longer care for the dog during its lifetime, you will be contractually obligated to return it to us.)"
+msgstr ""
+"Vai esi gatavs uzņemties rūpes (10-15 gadu) par Kavaliera Karaļa Čārlza Spanielu visu viņa mūža garumā?\n"
+"*(Ja kāda iemesla dēļ nevarēsi rūpēties par Kavalierīti, tev jāapņemas, obligāti atgriest viņu mums)"
+
+#: page-form-new.php:163
+#: page-form-new.php:175
+#: page-form-new.php:187
+#: page-form.php:180
+#: page-form.php:192
+#: page-form.php:204
+#: puppy-form.php:235
+#: puppy-form.php:255
+#@ royal_flash
+msgid "yes"
+msgstr "jā"
+
+#: page-form-new.php:165
+#: page-form-new.php:177
+#: page-form-new.php:189
+#: page-form.php:182
+#: page-form.php:194
+#: page-form.php:206
+#: puppy-form.php:238
+#: puppy-form.php:257
+#@ royal_flash
+msgid "no"
+msgstr "nē"
+
+#: page-form-new.php:170
+#: page-form.php:187
+#: puppy-form.php:248
+#@ royal_flash
+msgid "Are you prepared for the significant financial investment required to purchase and raise a quality Cavalier King Charles Spaniel Puppy?"
+msgstr "Vai apzinies, ka vajadzēs un esi gatavs ieguldīt naudas līdzekļus kopšanā, audzināšanā un veselības Kavaliera Karaļa Čārlza Spaniela kucēna  aprūpē"
+
+#: page-form-new.php:182
+#: page-form.php:199
+#@ royal_flash
+msgid "Do you realize pet prices from responsible breeders start at $2500.00 in addition to your normal costs of regular veterinary care, quality food, training and supplies?"
+msgstr ""
+
+#: page-form-new.php:194
+#: page-form.php:211
+#: puppy-form.php:276
+#@ royal_flash
+msgid "Why are you considering a Cavalier King Charles Spaniel?"
+msgstr "Kādēļ izvēlējies Kavaliera Karaļa Čārlza Spaniela šķirni?"
+
+#: page-form-new.php:201
+#: page-form.php:218
+#: puppy-form.php:286
+#@ royal_flash
+msgid "What gender puppy do you prefer?"
+msgstr "Kādu dzimumu vēlis savam sunim?"
+
+#: page-form-new.php:206
+#: page-form.php:223
+#: puppy-form.php:292
+#@ royal_flash
+msgid "Male"
+msgstr "Puisi"
+
+#: page-form-new.php:208
+#: page-form.php:225
+#: puppy-form.php:294
+#@ royal_flash
+msgid "Female"
+msgstr "Meiteni"
+
+#: page-form-new.php:210
+#: page-form.php:227
+#: puppy-form.php:296
+#@ royal_flash
+msgid "Either, I just want the best pet for my family"
+msgstr "Vienalga,es gribu tikai pašu labāko mājdzīvnieku manai ģimenei."
+
+#: page-form-new.php:215
+#: page-form.php:232
+#: puppy-form.php:304
+#@ royal_flash
+msgid "What color Cavalier do you prefer?"
+msgstr "Kādas krāsas Kavalierīti tu vēlies?"
+
+#: page-form-new.php:221
+#: page-form.php:238
+#@ royal_flash
+msgid "Ruby"
+msgstr "Rubīnu"
+
+#: page-form-new.php:223
+#: page-form.php:240
+#@ royal_flash
+msgid "Black and Tan"
+msgstr "Melns ar lāsumiņiem"
+
+#: page-form-new.php:225
+#: page-form.php:242
+#@ royal_flash
+msgid "Blenheim"
+msgstr "Blenheima ( balts ar riekstu brūnu)"
+
+#: page-form-new.php:227
+#: page-form.php:244
+#@ royal_flash
+msgid "Tricolor"
+msgstr "Trīskrāsu"
+
+#: page-form-new.php:232
+#: page-form.php:249
+#: puppy-form.php:315
+#@ royal_flash
+msgid "What age Cavalier are you looking for?"
+msgstr "Kāda vecuma Kavalierīti tu vēlies?"
+
+#: page-form-new.php:237
+#: page-form.php:254
+#: puppy-form.php:321
+#@ royal_flash
+msgid "Puppy 9 - 16 weeks"
+msgstr "Kucēnu 9 - 16 nedēļas"
+
+#: page-form-new.php:239
+#: page-form.php:256
+#: puppy-form.php:323
+#@ royal_flash
+msgid "Puppy 4 months - 1 year"
+msgstr "Kucēnu 4 mēnešu - 1 gads"
+
+#: page-form-new.php:241
+#: page-form.php:258
+#: puppy-form.php:325
+#@ royal_flash
+msgid "Young Adult (over 1 year)"
+msgstr "Jaunulis (over 1 year)"
+
+#: page-form-new.php:243
+#: page-form.php:260
+#: puppy-form.php:327
+#@ royal_flash
+msgid "Retired Adult (Over age 3 and retired from show/breeding program)"
+msgstr "Pieaudzis virs 3 gadu"
+
+#: page-form-new.php:248
+#: page-form.php:265
+#: puppy-form.php:335
+#@ royal_flash
+msgid "Are you looking for a pet or show prospect?"
+msgstr "Vai vēlies sev tikai mīluli vai suni ar izstāžu potenciālu?"
+
+#: page-form-new.php:253
+#: page-form.php:270
+#: puppy-form.php:341
+#@ royal_flash
+msgid "Pet (limited AKC registration)"
+msgstr "Tikai mājai"
+
+#: page-form-new.php:255
+#: page-form.php:272
+#: puppy-form.php:343
+#@ royal_flash
+msgid "Show prospect"
+msgstr "Izstāžu perspektīva"
+
+#: page-form-new.php:260
+#: page-form.php:277
+#: puppy-form.php:351
+#@ royal_flash
+msgid "When are you looking to adopt a Cavalier?"
+msgstr "Kad tu vēlies saņemt Kavalierīti?"
+
+#: page-form-new.php:267
+#: page-form.php:284
+#: puppy-form.php:362
+#@ royal_flash
+msgid "Do you have a current veterinarian I may contact for a reference? If yes, please provide the contact information below."
+msgstr "Vai tev ir savs veterinārārsts? Ja ir, tad , lūdzu ieraksti zemāk kontaktinformāciju."
+
+#: page-form-new.php:274
+#: page-form.php:291
+#: puppy-form.php:372
+#@ royal_flash
+msgid "If there is anything else you&#39;d like us to know about yourself or the home you can offer one of our puppies, please include it here."
+msgstr "Ja tev ir vēl kas piebilstams, ko vēlies, lai mēs zinām vai mājas, kurām tu vēlētos piedāvāt mūsu kucēnu, lūdzu ieraksti!"
+
+#: page-form-new.php:281
+#: page-form.php:298
+#: puppy-form.php:382
+#@ royal_flash
+msgid "How did you find our website?"
+msgstr "Kā tu atradi mūsu mājaslapu?"
+
+#: page-form-new.php:293
+#: page-form.php:310
+#: puppy-form.php:397
+#@ royal_flash
+msgid "In checking this box, you declare all the above information is true."
+msgstr "Atzīmējot šo logu , tu apstiprini, ka viss augstāk minētais ir patiesība."
+
+#: page-form.php:320
+#: puppy-form.php:413
+#@ royal_flash
+msgid "Submit"
+msgstr "Apstiprināt"
+
+#: single.php:27
+#@ royal_flash
+msgid "Tags:"
+msgstr ""
+
+#: single.php:35
+#, php-format
+#@ royal_flash
+msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
+msgstr ""
+
+#: single.php:35
+#@ royal_flash
+msgid "l, F jS, Y"
+msgstr ""
+
+#: single.php:36
+#, php-format
+#@ royal_flash
+msgid "You can follow any responses to this entry through the <a href='%s'>RSS 2.0</a> feed."
+msgstr ""
+
+#: single.php:40
+#, php-format
+#@ royal_flash
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: single.php:44
+#, php-format
+#@ royal_flash
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: single.php:48
+#@ royal_flash
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr ""
+
+#: single.php:52
+#@ royal_flash
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
+#: single.php:54
+#@ royal_flash
+msgid "Edit this entry"
+msgstr ""
+
+#: single.php:66
+#@ royal_flash
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: page-form-new.php:63
+#: page-form.php:80
+#: puppy-form.php:96
+#@ royal_flash
+msgid "Country"
+msgstr "Valsts"
+
+#: page-form-new.php:124
+#: page-form.php:141
+#: puppy-form.php:186
+#@ royal_flash
+msgid "Indoors"
+msgstr "Mājās, telpās"
+
+#: page-form-new.php:126
+#: page-form.php:143
+#: puppy-form.php:192
+#@ royal_flash
+msgid "Outdoors"
+msgstr "Ārā"
+
+#: puppy-form.php:265
+#@ royal_flash
+msgid "Do you realize pet prices from responsible breeders start at 1000.00 EUR in addition to your normal costs of regular veterinary care, quality food, training and supplies?"
+msgstr "Vai tu apzinies, ka   cenas pie atbildīgiem  audzētājiem sākas no 1000 EUR papildus jūsu parastajām izmaksām par regulāru veterināro aprūpi , kvalitatīvu pārtiku , apmācību un piegādi?"
+

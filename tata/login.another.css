@@ -1,0 +1,45 @@
+/*
+используемые цвета
+*/
+
+body {
+background-color: #ffffff;
+}
+
+html {
+background-color: #00843e;
+}
+
+body, #wpbody, .form-table .pre {
+color:#0186eb;
+}
+
+#backtoblog  {
+background:#54af3a;
+
+/* background:-moz-linear-gradient(center bottom , #D7D7D7, #E4E4E4) repeat scroll 0 0 transparent; */
+border-bottom:1px solid #0186eb;
+height:30px;
+left:0;
+position:absolute;
+top:0;
+width:100%;
+
+}
+
+
+#backtoblog a {
+//background-color: #ff811a;
+}
+
+#login h1 a {
+background:url(images/logo.jpg) no-repeat top;
+display:block;
+height:200px;
+margin: 0 auto;
+/* overflow:hidden; */
+/* padding-bottom:15px; */
+/* text-indent:-9999px; */
+width:200px;
+//background-color: #1872A4;
+}

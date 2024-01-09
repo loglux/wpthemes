@@ -1,0 +1,621 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:14
+#@ kubrick
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: archive.php:16
+#, php-format
+#@ kubrick
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr ""
+
+#: archive.php:18
+#, php-format
+#@ kubrick
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr ""
+
+#: archive.php:20
+#, php-format
+#@ kubrick
+msgid "Archive for %s|Daily archive page"
+msgstr ""
+
+#: archive.php:20
+#: index.php:23
+#@ kubrick
+msgid "F jS, Y"
+msgstr ""
+
+#: archive.php:22
+#, php-format
+#@ kubrick
+msgid "Archive for %s|Monthly archive page"
+msgstr ""
+
+#: archive.php:22
+#@ kubrick
+msgid "F, Y"
+msgstr ""
+
+#: archive.php:24
+#, php-format
+#@ kubrick
+msgid "Archive for %s|Yearly archive page"
+msgstr ""
+
+#: archive.php:24
+#@ kubrick
+msgid "Y"
+msgstr ""
+
+#: archive.php:26
+#@ kubrick
+msgid "Author Archive"
+msgstr ""
+
+#: archive.php:28
+#@ kubrick
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:33
+#: archive.php:53
+#: index.php:35
+#: search.php:16
+#: search.php:33
+#@ kubrick
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: archive.php:34
+#: archive.php:54
+#: index.php:36
+#: search.php:17
+#: search.php:34
+#@ kubrick
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: archive.php:39
+#: index.php:22
+#: search.php:24
+#, php-format
+#@ kubrick
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: archive.php:40
+#: image.php:30
+#: single.php:34
+#@ kubrick
+msgid "l, F jS, Y"
+msgstr ""
+
+#: archive.php:46
+#: index.php:29
+#: search.php:27
+#: single.php:26
+#@ kubrick
+msgid "Tags:"
+msgstr ""
+
+#: archive.php:46
+#: index.php:29
+#: search.php:27
+#, php-format
+#@ kubrick
+msgid "Posted in %s"
+msgstr ""
+
+#: archive.php:46
+#: index.php:29
+#: search.php:27
+#@ kubrick
+msgid "Edit"
+msgstr ""
+
+#: archive.php:46
+#: index.php:29
+#: search.php:27
+#@ kubrick
+msgid "No Comments &#187;"
+msgstr ""
+
+#: archive.php:46
+#: index.php:29
+#: search.php:27
+#@ kubrick
+msgid "1 Comment &#187;"
+msgstr ""
+
+#: archive.php:46
+#: index.php:29
+#: search.php:27
+#@ kubrick
+msgid "% Comments &#187;"
+msgstr ""
+
+#: archive.php:46
+#: index.php:29
+#: search.php:27
+#@ kubrick
+msgid "Comments Closed"
+msgstr ""
+
+#: archive.php:59
+#, php-format
+#@ kubrick
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr ""
+
+#: archive.php:61
+#@ kubrick
+msgid "Sorry, but there aren't any posts with this date."
+msgstr ""
+
+#: archive.php:64
+#, php-format
+#@ kubrick
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr ""
+
+#: archive.php:66
+#@ kubrick
+msgid "No posts found."
+msgstr ""
+
+#: archives.php:17
+#@ kubrick
+msgid "Archives by Month:"
+msgstr ""
+
+#: archives.php:22
+#@ kubrick
+msgid "Archives by Subject:"
+msgstr ""
+
+#: comments-popup.php:9
+#, php-format
+#@ kubrick
+msgid "%1$s - Comments on %2$s"
+msgstr ""
+
+#: comments-popup.php:28
+#@ kubrick
+msgid "Comments"
+msgstr ""
+
+#: comments-popup.php:30
+#@ kubrick
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgstr ""
+
+#: comments-popup.php:33
+#, php-format
+#@ kubrick
+msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is: <em>%s</em>"
+msgstr ""
+
+#: comments-popup.php:51
+#@ kubrick
+msgid "Comment"
+msgstr ""
+
+#: comments-popup.php:51
+#@ kubrick
+msgid "Trackback"
+msgstr ""
+
+#: comments-popup.php:51
+#@ kubrick
+msgid "Pingback"
+msgstr ""
+
+#: comments-popup.php:51
+#, php-format
+#@ kubrick
+msgid "by %1$s &#8212; %2$s @ <a href=\"#comment-%3$s\">%4$s</a>"
+msgstr ""
+
+#: comments-popup.php:57
+#@ kubrick
+msgid "No comments yet."
+msgstr ""
+
+#: comments-popup.php:61
+#@ kubrick
+msgid "Leave a comment"
+msgstr ""
+
+#: comments-popup.php:62
+#, php-format
+#@ kubrick
+msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: <code>%s</code>"
+msgstr ""
+
+#: comments-popup.php:66
+#, php-format
+#@ kubrick
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: comments-popup.php:70
+#: comments.php:72
+#@ kubrick
+msgid "Name"
+msgstr ""
+
+#: comments-popup.php:75
+#@ kubrick
+msgid "E-mail"
+msgstr ""
+
+#: comments-popup.php:80
+#@ kubrick
+msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
+msgstr ""
+
+#: comments-popup.php:85
+#@ kubrick
+msgid "Your Comment"
+msgstr ""
+
+#: comments-popup.php:93
+#@ kubrick
+msgid "Say It!"
+msgstr ""
+
+#: comments-popup.php:98
+#@ kubrick
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: comments-popup.php:103
+#@ kubrick
+msgid "Close this window."
+msgstr ""
+
+#: comments-popup.php:109
+#: image.php:63
+#: single.php:65
+#@ default
+#@ kubrick
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: comments-popup.php:113
+#, php-format
+#@ kubrick
+msgid "Powered by <a href=\"%s\" title=\"Powered by WordPress, state-of-the-art semantic personal publishing platform\"><strong>WordPress</strong></a>"
+msgstr ""
+
+#: comments.php:12
+#@ kubrick
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:21
+#@ kubrick
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:21
+#@ kubrick
+msgid "One Response"
+msgstr ""
+
+#: comments.php:21
+#@ kubrick
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:21
+#, php-format
+#@ kubrick
+msgid "to &#8220;%s&#8221;"
+msgstr ""
+
+#: comments.php:43
+#@ kubrick
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:53
+#@ kubrick
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:53
+#, php-format
+#@ kubrick
+msgid "Leave a Reply for %s"
+msgstr ""
+
+#: comments.php:60
+#, php-format
+#@ kubrick
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:67
+#, php-format
+#@ kubrick
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+
+#: comments.php:67
+#@ kubrick
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:67
+#@ kubrick
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:72
+#: comments.php:75
+#@ kubrick
+msgid "(required)"
+msgstr ""
+
+#: comments.php:75
+#@ kubrick
+msgid "Mail (will not be published)"
+msgstr ""
+
+#: comments.php:78
+#@ kubrick
+msgid "Website"
+msgstr ""
+
+#: comments.php:82
+#, php-format
+#@ kubrick
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr ""
+
+#: comments.php:86
+#@ kubrick
+msgid "Submit Comment"
+msgstr ""
+
+#: functions.php:172
+#@ default
+msgid "Custom Header"
+msgstr ""
+
+#: functions.php:185
+#@ default
+msgid "Close Color Picker"
+msgstr ""
+
+#: functions.php:388
+#@ default
+msgid "Options saved."
+msgstr ""
+
+#: functions.php:391
+#@ default
+msgid "Customize Header"
+msgstr ""
+
+#: functions.php:405
+#: functions.php:412
+#@ default
+msgid "Save"
+msgstr ""
+
+#: functions.php:406
+#@ default
+msgid "Font Color:"
+msgstr ""
+
+#: functions.php:406
+#, php-format
+#@ default
+msgid "Any CSS color (%s or %s or %s)"
+msgstr ""
+
+#: functions.php:407
+#@ default
+msgid "Upper Color:"
+msgstr ""
+
+#: functions.php:407
+#: functions.php:408
+#, php-format
+#@ default
+msgid "HEX only (%s or %s)"
+msgstr ""
+
+#: functions.php:408
+#@ default
+msgid "Lower Color:"
+msgstr ""
+
+#: functions.php:410
+#@ default
+msgid "Toggle Text"
+msgstr ""
+
+#: functions.php:411
+#@ default
+msgid "Use Defaults"
+msgstr ""
+
+#: functions.php:420
+#@ default
+msgid "Font Color"
+msgstr ""
+
+#: functions.php:421
+#@ default
+msgid "Upper Color"
+msgstr ""
+
+#: functions.php:422
+#@ default
+msgid "Lower Color"
+msgstr ""
+
+#: functions.php:423
+#@ default
+msgid "Revert"
+msgstr ""
+
+#: functions.php:424
+#@ default
+msgid "Advanced"
+msgstr ""
+
+#: functions.php:431
+#@ default
+msgid "Update Header"
+msgstr ""
+
+#: functions.php:437
+#@ default
+msgid "Font Color (CSS):"
+msgstr ""
+
+#: functions.php:438
+#@ default
+msgid "Upper Color (HEX):"
+msgstr ""
+
+#: functions.php:439
+#@ default
+msgid "Lower Color (HEX):"
+msgstr ""
+
+#: functions.php:440
+#@ default
+msgid "Select Default Colors"
+msgstr ""
+
+#: functions.php:441
+#@ default
+msgid "Toggle Text Display"
+msgstr ""
+
+#: header.php:31
+#@ kubrick
+msgid "About"
+msgstr "О нас"
+
+#: image.php:20
+#: index.php:26
+#: single.php:23
+#@ kubrick
+msgid "Read the rest of this entry &raquo;"
+msgstr ""
+
+#: image.php:30
+#: single.php:34
+#, php-format
+#@ kubrick
+msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
+msgstr ""
+
+#: image.php:32
+#: single.php:35
+#, php-format
+#@ kubrick
+msgid "You can follow any responses to this entry through the <a href='%s'>RSS 2.0</a> feed."
+msgstr ""
+
+#: image.php:36
+#: single.php:39
+#, php-format
+#@ kubrick
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: image.php:40
+#: single.php:43
+#, php-format
+#@ kubrick
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: image.php:44
+#: single.php:47
+#@ kubrick
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr ""
+
+#: image.php:48
+#: single.php:51
+#@ kubrick
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
+#: index.php:41
+#@ kubrick
+msgid "Not Found"
+msgstr ""
+
+#: index.php:42
+#@ kubrick
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr ""
+
+#: links.php:16
+#@ kubrick
+msgid "Links:"
+msgstr ""
+
+#: page.php:17
+#@ kubrick
+msgid "Read the rest of this page &raquo;"
+msgstr ""
+
+#: page.php:19
+#: single.php:25
+#@ kubrick
+msgid "Pages:"
+msgstr ""
+
+#: page.php:24
+#@ kubrick
+msgid "Edit this entry."
+msgstr ""
+
+#: search.php:13
+#@ kubrick
+msgid "Search Results"
+msgstr ""
+
+#: search.php:39
+#@ kubrick
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: single.php:53
+#@ kubrick
+msgid "Edit this entry"
+msgstr ""
+

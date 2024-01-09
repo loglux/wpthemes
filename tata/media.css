@@ -1,0 +1,129 @@
+/*media queries*/
+@media only screen and (width:1920px) {
+
+    #wrapper {
+        width:1920px;
+        background-image:url(images/background1920.jpg);
+    }
+
+    #langflag {
+        margin: 0 auto;
+        /*margin-right:auto;*/
+        /*margin-left:auto;*/
+        /*padding-top: 60px;*/	
+        /*    position: relative;
+            top:200px;
+            width:150px;
+            height:50px;*/
+
+    }
+
+    #logo a {
+        background-image: url("images/logo.png");
+        display: block;
+        height: 110px;
+        margin: 0 auto;
+
+        position: relative;
+        width: 452px;
+        z-index: 5;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    #wrapper {
+        width:1024px;
+        background-image:none;
+    }
+    #logo a {
+        background-image: url("images/logo.png");
+        /*        top:120px;*/
+        /*top: -130px;*/
+        /*right: 80px;*/
+        display: block;
+        height: 110px;
+        margin: 0 auto;
+        position: relative;
+        width: 452px;
+        z-index: 5;
+    }
+
+    #langwrapper {
+        left:21px;    
+    }
+
+    #langflag {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .slides {
+        clear:both;
+        float:right; 
+        /*        height: 800px; 
+                width: 533px; */
+        height: 640px;
+        width: 1024px;
+        /*margin: 10px auto auto;*/ 
+    }
+
+
+    .slides img { 
+        /*        height: 800px; 
+                width: 533px; */
+        height: 640px;
+        width: 1024px;
+        /*padding: 15px;*/ 
+        /*border: 1px solid #ccc; */
+        /*background-color: #eee; */
+    }
+}
+
+@media only screen and (min-width:1680px) {
+    #wrapper {
+        width:1680px;
+        background-image:none;
+    }
+    #logo a {
+        background-image: url("images/logo.png");
+        /*        top:120px;*/
+        /*top: -130px;*/
+        /*right: 80px;*/
+        display: block;
+        height: 110px;
+        margin: 0 auto;
+        position: relative;
+        width: 452px;
+        z-index: 5;
+    }
+
+    #langwrapper {
+        left:21px;    
+    }
+
+    #langflag {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .slides {
+        clear:both;
+        float:right; 
+        /*        height: 800px; 
+                width: 533px; */
+        height: 1000px;
+        width: 1680px;
+        /*margin: 10px auto auto;*/ 
+    }
+
+
+    .slides img { 
+        /*        height: 800px; 
+                width: 533px; */
+        height: 1000px;
+        width: 1680px;
+        /*padding: 15px;*/ 
+        /*border: 1px solid #ccc; */
+        /*background-color: #eee; */
+    }
+}
